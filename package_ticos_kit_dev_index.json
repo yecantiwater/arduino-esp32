@@ -12,6 +12,56 @@
         {
           "name": "Ticos Kit",
           "architecture": "esp32",
+          "version": "2.0.3-alpha.2",
+          "category": "Ticos Kit",
+          "url": "https://github.com/tiwater/arduino-esp32/releases/download/2.0.3-alpha.2/ticos-kit-2.0.3-alpha.2.zip",
+          "archiveFileName": "ticos-kit-2.0.3-alpha.2.zip",
+          "checksum": "SHA-256:aae21d137770ac9f5c310b1e53773d061818c4b35cc7ff66a48df81f1a3d6b65",
+          "size": "151468022",
+          "help": {
+            "online": ""
+          },
+          "boards": [
+            {
+              "name": "Ticos Kit Aksu"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "ticos-kit",
+              "name": "riscv32-esp-elf-gcc",
+              "version": "gcc8_4_0-esp-2021r2"
+            },
+            {
+              "packager": "ticos-kit",
+              "name": "xtensa-esp32-elf-gcc",
+              "version": "gcc8_4_0-esp-2021r2"
+            },
+            {
+              "packager": "ticos-kit",
+              "name": "xtensa-esp32s2-elf-gcc",
+              "version": "gcc8_4_0-esp-2021r2"
+            },
+            {
+              "packager": "ticos-kit",
+              "name": "esptool_py",
+              "version": "3.1.0"
+            },
+            {
+              "packager": "ticos-kit",
+              "name": "mkspiffs",
+              "version": "0.2.3"
+            },
+            {
+              "packager": "ticos-kit",
+              "name": "mklittlefs",
+              "version": "3.0.0-gnu12-dc7f933"
+            }
+          ]
+        },
+        {
+          "name": "Ticos Kit",
+          "architecture": "esp32",
           "version": "2.0.3-alpha.1",
           "category": "Ticos Kit",
           "url": "https://github.com/tiwater/arduino-esp32/releases/download/2.0.3-alpha.1/ticos-kit-2.0.3-alpha.1.zip",
